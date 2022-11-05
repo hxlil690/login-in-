@@ -1,0 +1,60 @@
+#{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+   font-family: "open sans";
+   color: azure;
+}
+section{
+   position: relative;
+   height: 100vh;
+   width: 100%;
+   background: url("26820.png");
+   background-size: cover;
+   background-position: center center;
+}
+.te{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background: linear-gradient(rgba(0, 0, 0, 0.3)),(rgba(0,0,0,0.3));
+   width: 380px;
+   padding: 50px 30px;
+   border-radius: 10px;
+   box-shadow: 7px 7px 60px #000;   /**اطار النص يكون حسب الخلفية */
+
+}
+h1{
+   text-transform: lowercase;
+   font-size: 2em;
+   text-align: center;
+   margin-bottom: 2em;
+}
+.control input{
+   width: 100%;
+   display: block;
+   padding: 10px;
+   color: black;
+   border: none;
+   outline: none;
+   margin: 1em 0;
+
+}
+.control input[type="submit"]{
+   opacity: 1;
+}
+.a{
+   text-decoration: none;
+   color: azure;
+   opacity: .6;
+   transition: opacity .3s ease;
+}
+.a a:hover{
+   opacity: 1;
+}
+
+
